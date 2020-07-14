@@ -1,5 +1,5 @@
 {
-  "name": "webpack-react",
+  "name": "webpack-react-login-form",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,8 +22,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.23",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "socket.io": "^2.3.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
