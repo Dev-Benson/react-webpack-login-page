@@ -41,8 +41,8 @@ export const SIGNUP_FORM = ({ dispatch,set_state }) =>{
             <span className="btn-container">
                 <button className="login btn-general" type="submit"  >sign_up</button>
             </span>            
-            <p>{signup_response}</p>
-            <button className="btn-general" type="text" onClick={()=>{set_state()}} >sign-up</button>
+            <p className="btn-general" >{signup_response}</p>
+            <button className="response" type="text" onClick={()=>{set_state()}} >back to login</button>
         </form>
 
     );

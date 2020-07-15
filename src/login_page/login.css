@@ -40,6 +40,13 @@ label {
     font: var(--body-font-size) var(--heading-font);
 }
 
+.response {
+    display: flex;
+    justify-content: center;
+    color: var(--orange);
+    font: var(--body-font-size) var(--heading-font);
+}
+
 .btn-container {
     margin-top: 10px;
     align-self: center;

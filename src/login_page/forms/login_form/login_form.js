@@ -38,7 +38,7 @@ export const LOGIN_FORM = ({ dispatch, set_state }) =>{
                 <button className="login btn-general" type="submit"  >login</button>
                 <button className="sign-up btn-general" onClick={()=>{set_state("SIGNUP")}} >sign-up</button>
             </span>
-            <p>{login_response}</p>
+            <p className="response" >{login_response}</p>
         </form>
 
     );
